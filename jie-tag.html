@@ -1,0 +1,70 @@
+<!--
+  # tag
+
+  标签
+
+  * 有 `[primary]`, `[badge]` 等特性可用
+
+  ## Example
+
+  ```
+  <p>
+    tags:
+    <jie-tag primary>html</jie-tag>
+    <jie-tag>css</jie-tag>
+    <jie-tag>javascript</jie-tag>
+    <jie-tag></jie-tag>
+    badges:
+    <jie-tag badge primary>100</jie-tag>
+    <jie-tag badge>10</jie-tag>
+  </p>
+  ```
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="jie-tag" attributes="" noscript>
+
+  <template
+    ><style>
+      :host {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75%;
+        font-weight: bold;
+        line-height: 1;
+        color: #ffffff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+        cursor: pointer;
+        background-color: #999999;
+        position: relative;
+        top: -1px;
+      }
+      :host(:hover),
+      :host(:focus) {
+        background-color: #808080;
+      }
+      :host(:empty) {
+        display: none;
+      }
+      :host([primary]) {
+        background-color: #ff6600;
+      }
+      :host([primary]:hover),
+      :host([primary]:focus) {
+        background-color: #cc5200;
+      }
+      :host([badge]) {
+        min-width: 10px;
+        padding: 3px 7px;
+        font-size: 12px;
+        border-radius: 10px;
+      }
+    </style
+    ><content></content
+  ></template>
+
+</polymer-element>
