@@ -1,29 +1,38 @@
 <!--
-  # tag
 
-  标签
+@element z-tag
 
-  * 有 `[primary]`, `[badge]` 等特性可用
+# `<z-tag>`
 
-  ## Example
+Tags & badges element
 
-  ```
-  <p>
-    tags:
-    <jie-tag primary>html</jie-tag>
-    <jie-tag>css</jie-tag>
-    <jie-tag>javascript</jie-tag>
-    <jie-tag></jie-tag>
-    badges:
-    <jie-tag badge primary>100</jie-tag>
-    <jie-tag badge>10</jie-tag>
-  </p>
-  ```
+## Attributes
+
+- `primary`: with primary style
+- `badge`: more border-radius than default, just like App badges in iOS
+
+-->
+
+<!--
+
+@example default
+
+<p>
+  tags:
+  <z-tag primary>html</z-tag>
+  <z-tag>css</z-tag>
+  <z-tag>javascript</z-tag>
+  <z-tag></z-tag>
+  badges:
+  <z-tag badge primary>100</z-tag>
+  <z-tag badge>10</z-tag>
+</p>
+
 -->
 
 <link rel="import" href="../polymer/polymer.html">
 
-<polymer-element name="jie-tag" attributes="" noscript>
+<polymer-element name="z-tag" attributes="" noscript>
 
   <template
     ><style>

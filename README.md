@@ -1,20 +1,23 @@
-# tag
+# `<z-tag>`
 
-标签
+Tags & badges element
 
-* 有 `[primary]`, `[badge]` 等特性可用
+## Attributes
 
-## Example
+- `primary`: with primary style
+- `badge`: more border-radius than default, just like App badges in iOS
+
+## Examples
 
 ```
 <p>
   tags:
-  <jie-tag primary>html</jie-tag>
-  <jie-tag>css</jie-tag>
-  <jie-tag>javascript</jie-tag>
-  <jie-tag></jie-tag>
+  <z-tag primary>html</z-tag>
+  <z-tag>css</z-tag>
+  <z-tag>javascript</z-tag>
+  <z-tag></z-tag>
   badges:
-  <jie-tag badge primary>100</jie-tag>
-  <jie-tag badge>10</jie-tag>
+  <z-tag badge primary>100</z-tag>
+  <z-tag badge>10</z-tag>
 </p>
 ```
