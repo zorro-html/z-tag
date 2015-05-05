@@ -1,8 +1,16 @@
 {
-  "name": "jie-tag",
-  "version": "0.0.1",
-  "main": "jie-tag.html",
+  "name": "z-tag",
+  "version": "1.0.0",
+  "main": "z-tag.html",
+  "ignore": [
+    "test"
+  ],
   "dependencies": {
-    "polymer": "~0.5.0"
+    "polymer": "~0.5.0",
+    "docs-parser": "Jinjiang/context-free-parser#master"
+  },
+  "devDependencies": {
+    "docs-maker": "zorro-html/zorro-docs-maker",
+    "web-component-tester": "Polymer/web-component-tester#^1.4.2"
   }
 }
