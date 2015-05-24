@@ -2,6 +2,12 @@
 
 Tags & badges element
 
+## Import
+
+```
+<link rel="import" href="z-tag/z-tag.html">
+```
+
 ## Attributes
 
 - `primary`: with primary style
